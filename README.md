@@ -2,7 +2,7 @@
 
 ## 概要
 以下の論文で使用しているOSM道路データとDRMデータの比較結果です  
-- 金杉洋, 瀬戸寿一，関本義秀，柴崎亮介, **オープンストリートマップ道路データとデジタル道路地図の比較　- 位置と完全性に着目して -** , GIS-理論と応用, Vol.27, No.1, pp.43-48, 2019.06
+- 金杉洋, 瀬戸寿一, 関本義秀, 柴崎亮介, **オープンストリートマップ道路データとデジタル道路地図の比較　- 位置と完全性に着目して -** , GIS-理論と応用, Vol.27, No.1, pp.43-48, 2019.06
 
 ## データファイル
 - *27-1-43-GISA-paper.pdf*: 論文本体
@@ -21,16 +21,16 @@
 	- name: 都市名
 	- drm_length: 当該市区町村におけるDRM道路延長(m)
 	- osm_length: 当該市区町村におけるOSM道路延長(m)
-	- completeness: 完全性（道路延長差分(m) [osm_length - drm-lenth]）
-	- coverage: 網羅率（道路延長比(m) [osm_length / drm-lenth]) 
+	- completeness: 完全性（道路延長差分(m) [osm_length - drm_lenth]）
+	- coverage: 網羅率（道路延長比(m) [osm_length / drm_lenth]) 
 - *coverage_mesh.tsv* : メッシュ別網羅率
 	- meshcode: 三次メッシュコード(1km メッシュ)
 	- drm_length: 当該メッシュにおけるDRM道路延長(m)
 	- osm_length: 当該メッシュにおけるOSM道路延長(m)
-	- completeness: 完全性（道路延長差分(m) [osm_length - drm-lenth]）
-	- coverage: 網羅率（道路延長比(m) [osm_length / drm-lenth]) 
+	- completeness: 完全性（道路延長差分(m) [osm_length - drm_lenth]）
+	- coverage: 網羅率（道路延長比(m) [osm_length / drm_lenth]) 
 
-## 元データ
+## 使用データ
 - OpenStreetMap: [Geofabric](http://download.geofabrik.de/asia/japan.html)より取得した2017年7月26日時点のデータを使用しています
 - デジタル道路地図(DRM): 東京大学空間情報科学研究センターの共同利用データで提供されている，[拡張版全国デジタル道路地図データベース2017年版](https://joras.csis.u-tokyo.ac.jp/dataset/show/id/900014201700)を使用しています
 - 行政区域: [国土数値情報行政区域 平成29年](http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v2_3.html)
